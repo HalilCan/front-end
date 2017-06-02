@@ -1,0 +1,41 @@
+.box {
+  border-color: black;
+  border-width: 1px;
+}
+#head{
+  padding-bottom: 20px;
+}
+body {
+  background-color: #fff9ef;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#content-box {
+  position: relative;
+  margin-top: 10%;
+}
+
+#getQuotebtn {
+  margin:auto;
+  padding-top: -10px;
+  padding-left: -10px;
+  padding-right: -10px;
+  padding-bottom: -10px;
+}
+
+#tweetBtn {
+  margin:auto;
+}
+
+#tweet-container{
+  margin: auto;
+}
+
+.btn{
+  background-color: #fff9ef;
+    border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 25px;
+  line-height: 0px;
+}
