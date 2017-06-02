@@ -1,4 +1,4 @@
-##Front End Repo
+**Front End Repo** 
 by Halil Can Memoglu
 
 My front end exercises are in this repo.
