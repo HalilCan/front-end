@@ -1,0 +1,61 @@
+
+
+#status-well-inner span {
+  margin-top:4px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.stream-box {
+  margin-top:4px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  background-color:black;
+}
+
+#header {
+  line-height:40px;
+  padding-left:10px;
+  padding-bottom: 5px;
+  border-style: solid;
+  color: white;
+}
+
+body {
+  background-color: #fbedff;
+  font-family: 'Roboto', sans-serif;
+}
+
+#content-box {
+  position: relative;
+  margin-top: 3%;
+  border-weight:3px;
+  border-style: solid;
+  background: #c1c1c1;
+  color:white;
+}
+
+#quote {
+  border-style: solid;
+}
+
+#getQuotebtn {
+  margin: auto;
+  padding-top: -10px;
+  padding-left: -10px;
+  padding-right: -10px;
+  padding-bottom: -10px;
+}
+
+
+
+.btn {
+  background-color: #fff9ef;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 25px;
+  line-height: 0px;
+}
