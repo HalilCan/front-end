@@ -1,5 +1,5 @@
 **Front End Repo** 
-by Halil Can Memoglu
+by Halil Can
 
 My front end exercises are in this repo.
 
