@@ -1,0 +1,15 @@
+#content-column {
+  margin:auto;
+  text-align:center;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+#pomodoro-box {
+  margin-top: 5%;
+  border: 1px solid white;
+  display:inline-block;
+}
