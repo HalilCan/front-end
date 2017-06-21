@@ -13,3 +13,35 @@ body {
   border: 1px solid white;
   display:inline-block;
 }
+
+.container 
+{
+  display: flex;
+  border: 1px dotted black;
+  flex-flow: row nowrap;
+  margin: auto;
+  width: 95%;
+}
+
+.box
+{
+  margin: auto;
+  border: 1px solid black;
+}
+
+#timer-status-box{
+  height: 800px;
+  flex-flow: column wrap;
+}
+
+
+#button-container {
+  width: 300px;
+}
+
+#loop-display-box {
+}
+
+#page-container {
+  justify-content:center;
+}

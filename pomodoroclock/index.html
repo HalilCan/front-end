@@ -13,18 +13,22 @@
 </head>
 
 <body>
-  <span id = 'span-status'>
+  <div class='container' id='page-container'>
+  <div class='container' id='timer-status-box'>
+    <div class='box'>
+      <span id='span-status'>
   Timer is paused
 </span>
-<span id = 'span-timer'>
+      <span id='span-timer'>
   <form>
   <input id = 'minBox' type="text" name="mins" value=00>:
   <input id = 'secBox' type="text" name="secs" value=01><br>
   <input id = 'toggleButton' type="button" value="Play?" onclick = "toggleState();">
   </form>
 </span>
-<br>
-<span id = 'span-loop-table'>
+    </div>
+    <div class='box' id = 'loop-display-box'>
+      <span id='span-loop-table'>
   <ul id = 'box-list'>
     <li>
     <div id = 'timeBlock-1' class = 'time-block'>
@@ -35,10 +39,17 @@
       </form>
     </div>
   </ul>
-  
 </span>
-<br>
-<span id = 'span-add'> 
+      </div>
+
+      <div class='box' id = 'loop-box'>
+        <br>
+        <span id='span-add'>
+          <div>
+            Add a set of timeblocks:
+          </div>
+          
+          
   <form>        
     <input id = 'minBoxNew' class = 'min-box' type="text" name="mins" value=25>:
         <input id = 'secBoxNew' class = 'sec-box' type="text" name="secs" value=00>-
@@ -49,6 +60,27 @@
     <input id = 'add-box' class = 'add-btn' type="button" value="+" onclick = "addBox();">
   </form>
 </span>
+      </div>
+    
+
+  </div>
+  
+  <div class = 'container' id = 'button-container'>
+    <div class = 'box'>
+    Pause/play
+    </div>
+  </div>
+  
+       
+  <div class= 'container'>
+    <br>
+
+
+    <div class='box' id='guide-box'>
+      Guide here
+    </div>
+
+  </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src='https://www.google.com/jsapi'></script>
 
