@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator-sudo</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+
+
+
+
+<body>
+  <div class="container-fluid">
+    <div class="col-xs-0 col-sm-0 col-md-2 col-lg-4">
+      <!-- gap column -->
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-4" id='content-column'>
+      <!-- content column -->
+      <div id = 'calculator-box'>
+      <div class: "row" id="screen-row">
+        <!-- content row 1 -->
+        <form>
+          <input id = 'main-screen' type = "text" name 'screen'> <br>
+        </form>
+      </div>
+      <div class="row" id="controls-row">
+        <!-- content row 2 -->
+        <div id='button-table'>
+          <table>
+            <tr id='row-1'>
+              <th class='calc-button'>
+                <button onclick="clearCalc()" id="clear-button" class="btn">
+                				C
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="divide()" id="divide-button" class="btn">
+                				/
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="multiply()" id="multiply-button" class="btn">
+                				X
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="delt()" id="delete-button" class="btn">
+                				<
+      						</button>
+              </th>
+            </tr>
+
+            <tr id='row-2'>
+              <th class='calc-button'>
+                <button onclick="seven()" id="seven-button" class="btn">
+                				7
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="eight()" id="eight-button" class="btn">
+                				8
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="nine()" id="nine-button" class="btn">
+                				9
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="subtract()" id="subtract-button" class="btn">
+                				-
+      						</button>
+              </th>
+            </tr>
+
+            <tr id='row-3'>
+              <th class='calc-button'>
+                <button onclick="four()" id="four-button" class="btn">
+                				4
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="five()" id="five-button" class="btn">
+                				5
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="six()" id="six-button" class="btn">
+                				6
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="add()" id="add-button" class="btn">
+                				+
+      						</button>
+              </th>
+            </tr>
+
+            <tr id='row-4'>
+              <th class='calc-button'>
+                <button onclick="one()" id="one-button" class="btn">
+                				1
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="two()" id="two-button" class="btn">
+                				2
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="three()" id="three-button" class="btn">
+                				3
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="paranthesis()" id="paranthesis-button" class="btn">
+                				()
+      						</button>
+              </th>
+            </tr>
+
+            <tr id='row-5'>
+              <th class='calc-button'>
+                <button onclick="zero()" id="zero-button" class="btn">
+                				0
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="point()" id="point-button" class="btn">
+                				.
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="signChange()" id="sign-change-button" class="btn">
+                				+/-
+      						</button>
+              </th>
+              <th class='calc-button'>
+                <button onclick="eql()" id="equals-button" class="btn">
+                				=
+      						</button>
+              </th>
+            </tr>
+            <table>
+        </div>
+      </div>
+          
+    </div>
+        <span>
+
+
+    <div class="col-xs-0 col-sm-0 col-md-2 col-lg-4">
+      <!-- gap column -->
+    </div>
+
+  </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://www.google.com/jsapi'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
