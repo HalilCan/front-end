@@ -161,6 +161,9 @@ function updateScreen() {
 }
 
 function resolveParantheses(arr2) {
+  if (Number.isInteger(arr2)) {
+    return arr2;
+  }
   var arr = arr2;
   
   if (arr === undefined) {
@@ -172,13 +175,15 @@ function resolveParantheses(arr2) {
       var begindex = pi;
       console.log('pindex');
       for (var pend = arr.length - 1; pend > pi; pend--) {
-        if (arr[pi] == ")") {
+        if (arr[pend] == ")") {
           console.log('end');
           var endex = pend;
           //Work out this par, read methods more carefully         
           console.log(pi + ', ' + pend);
           console.log(arr);
-          arr.splice(begindex, endex - begindex, resolveParantheses(arr));
+          console.log('wot de');
+          console.log(resolveParantheses(arr.slice(begindex + 1, endex)));
+          arr.splice(begindex, endex - begindex + 1, resolveParantheses(arr.slice(begindex + 1 , endex)));
         }
       }
     }
@@ -200,12 +205,14 @@ function resolveParantheses(arr2) {
   //3b. Sweep additions
   for (var i = 0; i < arr.length; i++) {
     if (!Number.isInteger(arr[i])) {
+      var a = parseInt(arr[i - 1]);
+      var b = parseInt(arr[i + 1]);
       if (arr[i] == "+") {
-        arr[i - 1] = arr[i - 1] + arr[i + 1];
+        arr[i - 1] = a + b;
         arr.splice(i, 2);
       }
       if (arr[i] == "-") {
-        arr[i - 1] = arr[i - 1] - arr[i + 1];
+        arr[i - 1] = a - b;
         arr.splice(i, 2);
       }
     }
